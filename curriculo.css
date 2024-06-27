@@ -1,0 +1,241 @@
+#Subtitulo{
+    margin-left: 19em;
+    position: relative;
+}
+#Titulo{
+    max-width: 850px;
+    height: 90px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius:30px;
+    background-color: #835943;
+}
+#TextoDeApresentacao{
+    margin-left: 19.6em;
+}
+
+#Educacao, #Certificacoes, #Experiencia, #Habilidades-Tecnicas{
+    border-top: 2px solid #835943;
+    padding-bottom: 10px;
+}
+
+#link1{
+    max-width: 25em;
+    margin-top: 0.1em;
+    margin-left: 0em;
+    position: absolute;
+}
+#link3{
+    max-width: 25em;
+    margin-left: 3em;
+    margin-top: 0.4em;
+    position: absolute;
+}
+#link4{
+    max-width: 25em;
+    margin-top: 0.4em;
+    margin-left: 9.1em;
+    display: flexbox;
+    position: absolute;
+    display: flex;
+}
+
+#op1, #op2, #op3, #op4, #op5{
+    width: 11em;
+    height: 0.5em;
+    margin-left: 8px;
+    margin-right: 0px;
+    border: solid 2px #3d291f;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+#sumario ul{
+    list-style-type: none;
+    display: flex; 
+    justify-content: space-around; 
+}
+
+#op1:hover{
+    opacity: 1;
+    transition: all 0.3s;
+    transform: scale(0.9,0.9);
+}
+#op2:hover{
+    opacity: 1;
+    transition: all 0.3s;
+    transform: scale(0.9,0.9);
+}
+#op3:hover{
+    opacity: 1;
+    transition: all 0.3s;
+    transform: scale(0.9,0.9);
+}
+#op4:hover{
+    opacity: 1;
+    transition: all 0.3s;
+    transform: scale(0.9,0.9);
+}
+#op5:hover{
+    opacity: 1;
+    transition: all 0.3s;
+    transform: scale(0.9,0.9);
+}
+
+#op1:active{
+    animation: piscar 1s infinite;
+}
+#op2:active{
+    animation: piscar 1s infinite;
+}
+#op3:active{
+    animation: piscar 1s infinite;
+}
+#op4:active{
+    animation: piscar 1s infinite;
+}
+#op5:active{
+    animation: piscar 1s infinite;
+}
+#redes{
+    margin-top: 5em;
+    margin-left: 3.5em;
+}
+
+#sumario{
+    margin-left: -3em;
+    padding-bottom: 2em;
+}
+
+
+
+body{
+    background-color: #BF8C6F
+}
+footer{
+    background-color:#835943;
+    padding-bottom: 4em;
+}
+
+footer a{
+    color: #F2EEE9;
+}
+
+footer h3{
+    padding-top: 2em;
+    padding-left: 2em;
+    color: #F2EEE9;
+}
+
+footer p{
+    padding-left: 4em;
+    color: #F2EEE9;
+}
+
+h1, h2, h3, h4, h5{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    margin-left: 7em;
+    padding-top: 18px;
+    position: relative;
+    font-size: 40px;
+    color: #F2EEE9;
+}
+
+h2{
+    color: #835943;
+}
+
+h3{
+    position: relative;
+    color: #835943;
+}
+
+h5{
+    position: relative;
+    color: #835943;
+}
+
+p{
+    color: #3d291f;
+    position: relative;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}  
+
+.fotoPerfil{
+    width: 250px;
+    padding: 10px;
+    border-radius: 50%;
+    position: absolute
+}
+
+.pagina-toda{
+    max-width: 900px;
+    min-width: 900px;
+    margin-left: 25%;
+    margin-right: 25%; 
+    background-color: #F2EEE9;
+    border: solid 2px #3d291f;
+}
+
+.piscar {
+    animation: piscar 1s 1ms;
+}
+
+.topicos{
+    max-width: 25em;
+    margin-left: 2.2em;
+    text-align: justify;
+}
+
+.topicos #Educacao, #Certificacoes{
+    position: relative;
+}
+
+.topicos #Experiencia{
+    max-width: 25em;
+    margin-left: 27.2em;
+    margin-top: -542px;
+    position: absolute;
+}
+
+.topicos #Habilidades-Tecnicas{
+    max-width: 25em;
+    margin-left: 27.2em;
+    margin-top: -300px;
+    position: absolute;
+}
+
+.topicos li{
+    list-style-type:circle;
+    margin-left: 2em;
+}
+
+@keyframes piscar {
+    0% {
+        background-color: #ffffff;
+    }
+    50% {
+        background-color: #ffac7c;
+    }
+    100% {
+        background-color: #F2EEE9;
+    }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 901px){
+    .pagina-toda{
+        margin-left: unset;
+        margin-right: unset;
+    }
+}
+@media mobile and (max-width: 900px){
+    .pagina-toda{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    p{
+        font-size: 15px;
+    }
+}
